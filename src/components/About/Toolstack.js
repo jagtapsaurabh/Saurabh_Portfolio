@@ -6,6 +6,8 @@ import {
   SiSlack,
   SiVercel,
   SiMacos,
+  SiJenkins,
+  SiDocker,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -26,6 +28,12 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
     </Row>
   );
 }
